@@ -1,70 +1,20 @@
-h2{
-    text-align: center;
+@import url("dominios.css/header.css");
+@import url("dominios.css/produtos.css");
+@import url("dominios.css/botao.css");
+@import url("dominios.css/pedidos.css");
+
+:root{
+    --fonte-principal: "Roboto Mono";
+    --laranja: #ffa500;
+    --branco: #ffffff;
+    --marrom: #5d2906;
+    --joao: #000000;
+    --palmeiras: #088c19;
 }
 
-h3{
-    text-align: center;
-}
-
-h4{
-    text-align: center;
-}
-
-p{
-    text-align: center;
-}
-
-footer{
-    text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
-}
-
-h5{
-    color: #ffffff;
-}
-
-.copyright{
-    color: #ffffff;
-    font-size: 13px;
-    margin: 20px 0 0;
-}
-
-.caixa{
-    position: relative;
-    width: 900px;
-    margin:  0 auto;
-}
-
-header{
-    background: #BBBBBB;
-    padding:  20px 0;
-}
-
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 11px;
-}
-
-nav a{
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: nome;
-}
-
-nav a:hover {
-    color: #006600;
-    text-decoration: underline;
-}
-
-.meio h1{
-    text-align: center;
+.textos{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    background-color: var(--laranja);
 }
